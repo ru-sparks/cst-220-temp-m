@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!!!!");
+            var s = MinesweeperEngine.Greeting();
+            Console.WriteLine(s);
         }
     }
 }
